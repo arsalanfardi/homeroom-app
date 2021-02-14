@@ -18,6 +18,6 @@ export class HomeComponent implements OnInit {
   }
 
   launch() {
-    window.open("https://playcanv.as/p/th3e30XX/")
+    window.open("https://playcanv.as/b/liYgfXpQ/");
   }
 }
