@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'homeroom-app';
+
+  openTwitter() {
+    window.open("https://www.twitter.com")
+  }
 }

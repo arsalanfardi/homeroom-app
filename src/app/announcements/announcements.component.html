@@ -1,0 +1,14 @@
+<div class="content" role="main">
+  <div class="title">Announcements</div>
+  <div >
+
+  </div>
+  <div class="announcement-box" *ngFor="let announcement of announcements; let i = index">
+    <div class="announcement-header">
+      {{ announcement.title }}
+    </div>
+    <div class="announcement-text">
+      {{ announcement.summary }}
+    </div>
+  </div>
+</div>

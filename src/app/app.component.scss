@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.spacer {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f5;
+  color: #878787;
+  font-weight: 600;
+  margin: 0px 25px;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar-text {
+  color: #878787;
+  margin-right: 16px;
+  outline: none;
+}
+
+.toolbar-text:hover, .logo:hover, #twitter-logo:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: black;
+}
+
+.toolbar #twitter-logo {
+  height: 30px;
+  margin: 0 0px;
+}
+
+#twitter-logo{
+  color: #1da1f2;
+}
+
+.toolbar #twitter-logo:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  font-size: 40px;
+  color: #878787;
+  outline: none;
+}
+
